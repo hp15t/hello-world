@@ -24,7 +24,7 @@ if(count($_POST)>0) {
 	$message = "Invalid UserEmail";
 	}
 	}
-
+condition
 	if(!isset($message)) {
 		require_once("database.php");
 		$db_handle = new DBController();
