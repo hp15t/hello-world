@@ -72,7 +72,7 @@ if(count($_POST)>0) {
  <input type="text" name="mobileNo" value="<?php if(isset($_POST['mobileNo'])) echo $_POST['mobileNo']; ?>"><br />
 College Name:  <select name="college">
 <option value="0">select....</option>
-<option value="1">GITAM School of Technology</option></select><br><br>
+<option value="1"></option></select><br><br>
  <form action="course">
 <input type="submit" value="Submit">
 </form></h3>
