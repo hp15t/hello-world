@@ -1,7 +1,7 @@
 <?php
 if(count($_POST)>0) {
 	/* Form Required Field Validation */
-	foreach($_POST as $key=>$value) {
+	foreach($_POST as $key=>$value) 
 	if(empty($_POST[$key])) {
 	$message = ucwords($key) . " field is required";
 	break;
