@@ -6,7 +6,7 @@ if(count($_POST)>0) {
 	$message = ucwords($key) . " field is required";
 	break;
 	}
-	}
+	
 	/* Password Matching Validation */
 	if($_POST['password'] != $_POST['confirm_password']){ 
 	$message = 'Passwords should be same<br>'; 
